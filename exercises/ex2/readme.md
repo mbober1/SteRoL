@@ -22,7 +22,8 @@ przerwanie było generowana **dokładnie** co 1 sekundę,
 czyli z częstotliwością 1 Hz.
 
 Dlaczego warto wykorzystywać liczniki jako generatory podstawy 
-czasu zamiast opóźnień programowych takich jak **HAL_Delay()**?
+czasu zamiast opóźnień programowych takich jak **HAL_Delay()**? 
+### Bo są dokładniejsze i nie blokują nam procka
 
 Skonfiguruj przerwania i wykorzystaj funkcję zwrotną
 ```C
@@ -32,6 +33,9 @@ HAL_TIM_PeriodElapsedCallback()
 Projekt nazwij jako *ex2_1*.
 Po wykonaniu zadania usuń katalog *Debug* z projektu, spakuj 
 jako archiwum zip lub 7zip oraz wyślij na eportal.
+
+### Jak to zrobić?
+Stwórz projekt, ustaw odpowiedni timer (taki do którego podłączona jest dioda) z obsługą przerwań i wykorzystaj podany kod (tylko tam gdzie polskie komentarze).
 
 ## Generator sygnału PWM - ex2_2
 
@@ -57,6 +61,9 @@ podłączoną do złącza TIMER4.
 Projekt nazwij jako *ex2_2*.
 Po wykonaniu zadania usuń katalog *Debug* z projektu, spakuj 
 jako archiwum zip lub 7zip oraz wyślij na eportal.
+
+### Jak to zrobić?
+Stwórz projekt, ustaw odpowiedni timer (taki do którego podłączona jest dioda) w trybie PWM i ustaw UART. Wykorzystaj podany kod (tylko tam gdzie polskie komentarze).
 
 ## Tryb Input Capture - ex2_3
 

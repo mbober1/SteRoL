@@ -46,6 +46,9 @@ Projekt nazwij jako *ex1_1*.
 Po wykonaniu zadania usuń katalog *Debug* z projektu, spakuj 
 jako archiwum zip lub 7zip oraz wyślij na eportal.
 
+### Jak to zrobić?
+Stwórz projekt, ustaw serial port i wykorzystaj podany kod (tylko tam gdzie polskie komentarze)
+
 ## Odczytywanie danych z interfejsu szeregowego ex1_2
 
 Napisz program, który będzie wypisywał na przekierowane standardowe 
@@ -102,6 +105,10 @@ printf() i jej podobnych wewnątrz obsługi przerwania.
 Projekt nazwij jako *ex1_2*.
 Po wykonaniu zadania usuń katalog *Debug* z projektu, spakuj 
 jako archiwum zip lub 7zip oraz wyślij na eportal.
+
+### Jak to zrobić?
+Stwórz projekt, ustaw serial port z obsługą przerwań i wykorzystaj podany kod (tylko tam gdzie polskie komentarze).
+W mojej wersji nie trzeba zatwierdzać odebrania danych enterem, także poprawcie sobie.
 
 ## Włączanie i wyłączanie diody ex1_3
 

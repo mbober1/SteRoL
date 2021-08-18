@@ -24,3 +24,7 @@ W tym celu wykorzystaj LED1, bądź LED2.
 Projekt nazwij jako *ex0*.
 Po wykonaniu zadania usuń katalog *Debug* z projektu, spakuj 
 jako archiwum zip lub 7zip oraz wyślij na eportal.
+
+
+###Jak to zrobić? Jak to zrobić?
+Stwórz projekt, nazwij odpowiedni pin (według schematu) i wykorzystaj podany kod (tylko tam gdzie polsie komentarze)
